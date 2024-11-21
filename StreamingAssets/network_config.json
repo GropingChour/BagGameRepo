@@ -1,0 +1,12 @@
+{
+    "m_Mode": 1,
+    "Protocol": "ws",
+    "IP": "192.168.101.51",
+    "TcpPort": 18000,
+    "WsPort": 18000,
+    "TaskTimeoutTime": 3.0,
+    "TaskWarningSlowTimeMS": 5000,
+    "LogHeartBeat": false,
+    "SearchServer": true,
+    "EnableWriteTcpBody": false
+}

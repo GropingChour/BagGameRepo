@@ -1,0 +1,484 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DebugTools.UI_Debug" preserve="all" />
+    <type fullname="DebugTools.UI_DebugInputField" preserve="all" />
+  </assembly>
+  <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
+    <type fullname="IngameDebugConsole.EventSystemHandler" preserve="all" />
+    <type fullname="IngameDebugConsole.InputFieldWarningsFixer" preserve="all" />
+  </assembly>
+  <assembly fullname="LoopScrollRect.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.LoopVerticalScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.LoopScrollRectBase/ScrollRectEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SYGames.Apps, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BackGroundCtr" preserve="all" />
+    <type fullname="SYGames.Apps.ActivityTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ActorInSceneBuffIcon" preserve="all" />
+    <type fullname="SYGames.Apps.ActorInSceneBuffView" preserve="all" />
+    <type fullname="SYGames.Apps.AirplaneTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.AtlasUISprite" preserve="all" />
+    <type fullname="SYGames.Apps.AudioEvent" preserve="all" />
+    <type fullname="SYGames.Apps.AudioPlayer" preserve="all" />
+    <type fullname="SYGames.Apps.AudioRepo" preserve="all" />
+    <type fullname="SYGames.Apps.BagGame.RD_Enemy" preserve="all" />
+    <type fullname="SYGames.Apps.BagGame.RD_Hero" preserve="all" />
+    <type fullname="SYGames.Apps.BoundedSlider" preserve="all" />
+    <type fullname="SYGames.Apps.ButtonSFX" preserve="all" />
+    <type fullname="SYGames.Apps.ChatPanelConfigFile" preserve="all" />
+    <type fullname="SYGames.Apps.ClimbingEnemyTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.DigGamePropVFX" preserve="all" />
+    <type fullname="SYGames.Apps.DigGameTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.DynamicBtnImage" preserve="all" />
+    <type fullname="SYGames.Apps.DynamicTexture" preserve="all" />
+    <type fullname="SYGames.Apps.EaseButtonVFX" preserve="all" />
+    <type fullname="SYGames.Apps.EditableItem" preserve="all" />
+    <type fullname="SYGames.Apps.EditMoveHandle" preserve="all" />
+    <type fullname="SYGames.Apps.EditRotateHandle" preserve="all" />
+    <type fullname="SYGames.Apps.EnemyTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.EquipShapeTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ExtendRepo" preserve="all" />
+    <type fullname="SYGames.Apps.FightingAlertStateMachine" preserve="all" />
+    <type fullname="SYGames.Apps.GamepassTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.IndiractorDynamic" preserve="all" />
+    <type fullname="SYGames.Apps.ItemEquipTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ItemHeroTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ItemPotTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ItemPropTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.LevelTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.LockBtn" preserve="all" />
+    <type fullname="SYGames.Apps.LoginContent" preserve="all" />
+    <type fullname="SYGames.Apps.MonthCardTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ParkingShopItemTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.ParticleEvent" preserve="all" />
+    <type fullname="SYGames.Apps.PrefabRepo" preserve="all" />
+    <type fullname="SYGames.Apps.RD_DamageNumber" preserve="all" />
+    <type fullname="SYGames.Apps.RD_ParticleMove" preserve="all" />
+    <type fullname="SYGames.Apps.RedPointCom_IgnoreAdrEmail" preserve="all" />
+    <type fullname="SYGames.Apps.RedPointComponent" preserve="all" />
+    <type fullname="SYGames.Apps.ResearchTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.SimpleEase" preserve="all" />
+    <type fullname="SYGames.Apps.SimpleUIFrameAnimPlayer" preserve="all" />
+    <type fullname="SYGames.Apps.SimpleVFXReuse" preserve="all" />
+    <type fullname="SYGames.Apps.SpriteSlider" preserve="all" />
+    <type fullname="SYGames.Apps.SupplyBtn" preserve="all" />
+    <type fullname="SYGames.Apps.TabGroup" preserve="all" />
+    <type fullname="SYGames.Apps.TabItem" preserve="all" />
+    <type fullname="SYGames.Apps.ToggleSFX" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Activity" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityDayItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityMenuFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityMenuItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityMissionItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityTPNode" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ActivityTPRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AdBlessBuffGroup" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AdBlessFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AdBlessItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AdvertisingTreasureFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AirplaneIconItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AirplaneRefitFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ApronItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Arena" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaChallengePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaChallengePanelItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaMainPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaMainPanelItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaRewardPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaRewardPanelItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaTicketPurchasePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ArenaTitleReward" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AttendanceDailyRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AttendanceFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AttendanceTPNode" preserve="all" />
+    <type fullname="SYGames.Apps.UI_AttendanceTPRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BagDisplayFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BagEquipInfoFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BagPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BagPromote" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BagPromoteProgressTog" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BattleScreen" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BlessingEffectItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BlessingGamePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BlessingLevelEffectItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BlessingLevelInfoFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BottomMenu" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BuildPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BuildPanelPoolItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BuildQueueRewardFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_BuildQueueRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CastlePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CDKey" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CharacterCard" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CharacterPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Chat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ChatElement" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ChatFold" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CircleStepItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameBuffDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameBuffItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameLevelLogItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameLogFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameOverFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGamePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameRewardRecordFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ClimbingGameStepLogItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ConfirmBox" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CropAreaItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CropDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_CropStealDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DailyGiftGroupItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DailyMissionFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DailyMissionItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DailyMissionRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DailyPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DigGamePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DigGameResourceItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DungeonItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DungeonPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_DustExchangeFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EightDayLoginFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EightDayLoginItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EightDayLoginRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EnemyStepItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EquipDetail" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EquipIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EquipLevelupItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EquipsLevelupFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EventResultFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EventStepItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmBuildingFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmFriendFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmFriendItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmLogFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmLogItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmShopFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmShopGroupItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmShopItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmShopPurchaseFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmStealerInfoFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmStealFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FarmStealItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FightingAlertFrame" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FindApronFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FindApronItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Friend" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendAddItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendAddPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendBlackListItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendDetailedInfo" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendRecvItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_FriendRequestItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Gamepass" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassFreeSeries" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassLevelProgressNode" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassMenuItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassMissionItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassPaidSeries" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassSeriesItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GamepassSeriesTitle" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GampassLevelProgressBar" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GiftPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GloableHandleConfirmBox" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GPAndMCMenuFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Grid" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GridSlot" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Guide" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ItemDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ItemsView" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ItemView" preserve="all" />
+    <type fullname="SYGames.Apps.UI_LinkedMissionRewardItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_LoginMenu" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Mailbox" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MailDetail" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MailItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MissionFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MonthCardFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MonthCardFreeRewardItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MonthCardMenuItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_MonthCardRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_NetReconnecting" preserve="all" />
+    <type fullname="SYGames.Apps.UI_OffLineEarnings" preserve="all" />
+    <type fullname="SYGames.Apps.UI_OnlineRewardFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_OnlineRewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_OnlineRewardItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingAirplaneItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingDecoDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingDecoFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingDecoItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingFeeFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingGamePanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingLogFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingLogItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingSelectFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingShopFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingShopGroupItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingShopItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingShopPurchaseFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ParkingShopRewardFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_PlayerStepItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_PotIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_PrivateChatIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_PropDisplay" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ProtocolPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_RefitDetailFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ResearchItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ResearchLine" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ResearchPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_RewardBox" preserve="all" />
+    <type fullname="SYGames.Apps.UI_RewardIcon" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SelectCropFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SelectCropItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SelectFertilizerFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SelectFertilizerItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ServerItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ServerSelector" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Setting" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopBuildBtnItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopButton" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopGiftStyleAItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopGiftStyleBItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopGiftStyleCItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopGiftStyleDItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopGiftStyleEItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopIconStyleAItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopIconStyleBItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopIconStyleCItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_ShopPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SleepMode" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SoilBlock" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SoilLine" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SpecialPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_SpeedUpCardUseFloat" preserve="all" />
+    <type fullname="SYGames.Apps.UI_TipFloatItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_TipPanel" preserve="all" />
+    <type fullname="SYGames.Apps.UI_TopBar" preserve="all" />
+    <type fullname="SYGames.Apps.UI_TopDropdown" preserve="all" />
+    <type fullname="SYGames.Apps.UI_TopMenu" preserve="all" />
+    <type fullname="SYGames.Apps.UIRepo" preserve="all" />
+    <type fullname="SYGames.Apps.UX_Button" preserve="all" />
+    <type fullname="SYGames.Apps.WidgetsPropVFX" preserve="all" />
+    <type fullname="SYGames.Apps.Winline" preserve="all" />
+    <type fullname="UnityEngine.UI.NewHoleImage" preserve="all" />
+    <type fullname="E_Decoration_Type" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ActivityTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.AirplaneTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.AnimationVFXConfig" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.DigGameTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.EnemyTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.EquipShapeTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GamepassTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ItemEquipTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ItemHeroTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ItemPotTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ItemPropTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.LevelTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.MonthCardTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ParkingShopItemTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.ResearchTableEx/Bean" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.UIRepo/UIRefMap" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.TabItem/TabDeselectEvent" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.TabItem/TabSelectEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SYGames.Defs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SYGames.Defs.BattleSetting" preserve="all" />
+    <type fullname="SYGames.Defs.GameplaySetting" preserve="all" />
+    <type fullname="SYGames.Defs.GlobalBuffSetting" preserve="all" />
+    <type fullname="SYGames.Defs.HeroSetting" preserve="all" />
+    <type fullname="SYGames.Defs.MissionSetting" preserve="all" />
+    <type fullname="SYGames.Defs.PetSetting" preserve="all" />
+    <type fullname="SYGames.Defs.QualitySetting" preserve="all" />
+    <type fullname="SYGames.Defs.ShopSetting" preserve="all" />
+    <type fullname="SYGames.Defs.GameQuality" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Defs.GlobalBuffSetting/GlobalBuffNameConfig" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Defs.MissionSetting/MissionNameConfig" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Defs.ShopItemPurchasedInfo" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SYGames.Tops, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SYGames.Apps.RecyclerView" preserve="all" />
+    <type fullname="SYGames.Tops.UI_Button" preserve="all" />
+    <type fullname="SYGames.Tops.UI_Image" preserve="all" />
+    <type fullname="SYGames.Tops.UI_ProgressBar" preserve="all" />
+    <type fullname="SYGames.Tops.UI_RectTransform" preserve="all" />
+    <type fullname="SYGames.Tops.UI_ScrollRect" preserve="all" />
+    <type fullname="SYGames.Tops.UI_Text" preserve="all" />
+    <type fullname="SYGames.Tops.UI_ToggleGroup" preserve="all" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ActivityTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.AirplaneTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ClimbingEnemyTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.DigGameTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.EnemyTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.EquipShapeTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.GamepassTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ItemEquipTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ItemHeroTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ItemPotTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ItemPropTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.LevelTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.MonthCardTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ParkingShopItemTableEx/Bean]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ResearchTableEx/Bean]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SyGamesTextMeshProHyperlink, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SYGamesTextMeshProHyperlink.TMP_Hyperlink" preserve="all" />
+    <type fullname="SYGamesTextMeshProHyperlink.EventS" preserve="nothing" serialized="true" />
+    <type fullname="SYGamesTextMeshProHyperlink.LinkIDEvent" preserve="nothing" serialized="true" />
+    <type fullname="SYGamesTextMeshProHyperlink.LinkStyle" preserve="nothing" serialized="true" />
+    <type fullname="SYGamesTextMeshProHyperlink.LinkStyleType" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UIAddons, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SYGames.UI.ResearchLine" preserve="all" />
+    <type fullname="UnityEngine.UI.DragHandler" preserve="all" />
+    <type fullname="UnityEngine.UI.ProgressBar" preserve="all" />
+    <type fullname="UnityEngine.UI.ProgressBarWithTMP" preserve="all" />
+    <type fullname="UnityEngine.UI.DragHandler/PointerEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitialization" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitializationData" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_Dropdown" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.BaseInput" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem">
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
