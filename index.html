@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1000 height=2000 tabindex="-1" style="width: 1000px; height: 2000px; background: #1F1F20"></canvas>
-    <script src="Build/BagGame.loader.js"></script>
+    <script src="Build/BagGame_11_22.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,10 +25,10 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/BagGame.data",
-        frameworkUrl: "Build/BagGame.framework.js",
-        codeUrl: "Build/BagGame.wasm",
-        symbolsUrl: "Build/BagGame.symbols.json",
+        dataUrl: "Build/BagGame_11_22.data",
+        frameworkUrl: "Build/BagGame_11_22.framework.js",
+        codeUrl: "Build/BagGame_11_22.wasm",
+        symbolsUrl: "Build/BagGame_11_22.symbols.json",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SYGames",
         productName: "背包大冒险",
