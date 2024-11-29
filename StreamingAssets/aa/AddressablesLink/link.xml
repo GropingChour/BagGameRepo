@@ -53,6 +53,7 @@
     <type fullname="SYGames.Apps.ItemPropTableEx" preserve="all" />
     <type fullname="SYGames.Apps.LevelTableEx" preserve="all" />
     <type fullname="SYGames.Apps.LockBtn" preserve="all" />
+    <type fullname="SYGames.Apps.LockBtn_EightDayLogin" preserve="all" />
     <type fullname="SYGames.Apps.LoginContent" preserve="all" />
     <type fullname="SYGames.Apps.MonthCardTableEx" preserve="all" />
     <type fullname="SYGames.Apps.ParkingShopItemTableEx" preserve="all" />
@@ -149,6 +150,7 @@
     <type fullname="SYGames.Apps.UI_EightDayLoginRewardIcon" preserve="all" />
     <type fullname="SYGames.Apps.UI_EnemyStepItem" preserve="all" />
     <type fullname="SYGames.Apps.UI_EquipDetail" preserve="all" />
+    <type fullname="SYGames.Apps.UI_EquipDetailDragDetect" preserve="all" />
     <type fullname="SYGames.Apps.UI_EquipIcon" preserve="all" />
     <type fullname="SYGames.Apps.UI_EquipLevelupItem" preserve="all" />
     <type fullname="SYGames.Apps.UI_EquipsLevelupFloat" preserve="all" />
@@ -191,7 +193,7 @@
     <type fullname="SYGames.Apps.UI_GamepassSeriesTitle" preserve="all" />
     <type fullname="SYGames.Apps.UI_GampassLevelProgressBar" preserve="all" />
     <type fullname="SYGames.Apps.UI_GiftPanel" preserve="all" />
-    <type fullname="SYGames.Apps.UI_GloableHandleConfirmBox" preserve="all" />
+    <type fullname="SYGames.Apps.UI_GlobalHandleConfirmBox" preserve="all" />
     <type fullname="SYGames.Apps.UI_GPAndMCMenuFloat" preserve="all" />
     <type fullname="SYGames.Apps.UI_Grid" preserve="all" />
     <type fullname="SYGames.Apps.UI_GridSlot" preserve="all" />
@@ -199,7 +201,9 @@
     <type fullname="SYGames.Apps.UI_ItemDetailFloat" preserve="all" />
     <type fullname="SYGames.Apps.UI_ItemsView" preserve="all" />
     <type fullname="SYGames.Apps.UI_ItemView" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Lag" preserve="all" />
     <type fullname="SYGames.Apps.UI_LinkedMissionRewardItem" preserve="all" />
+    <type fullname="SYGames.Apps.UI_Login" preserve="all" />
     <type fullname="SYGames.Apps.UI_LoginMenu" preserve="all" />
     <type fullname="SYGames.Apps.UI_Mailbox" preserve="all" />
     <type fullname="SYGames.Apps.UI_MailDetail" preserve="all" />
@@ -351,9 +355,11 @@
     <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitialization" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitializationData" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.GameObject]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
@@ -365,6 +371,7 @@
     <type fullname="TMPro.TMP_Dropdown" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAnimator" preserve="all" />
     <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
     <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
@@ -380,9 +387,9 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
