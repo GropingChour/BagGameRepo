@@ -61,6 +61,7 @@
     <type fullname="SYGames.Apps.PrefabRepo" preserve="all" />
     <type fullname="SYGames.Apps.RD_DamageNumber" preserve="all" />
     <type fullname="SYGames.Apps.RD_ParticleMove" preserve="all" />
+    <type fullname="SYGames.Apps.RedpointCom_FollowBtnInter" preserve="all" />
     <type fullname="SYGames.Apps.RedPointCom_IgnoreAdrEmail" preserve="all" />
     <type fullname="SYGames.Apps.RedPointComponent" preserve="all" />
     <type fullname="SYGames.Apps.ResearchTableEx" preserve="all" />
