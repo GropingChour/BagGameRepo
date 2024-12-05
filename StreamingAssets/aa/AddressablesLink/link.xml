@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DebugTools.UI_Debug" preserve="all" />
     <type fullname="DebugTools.UI_DebugInputField" preserve="all" />
+    <type fullname="SYGames.Apps.AppDebugger" preserve="all" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
@@ -23,6 +24,8 @@
     <type fullname="SYGames.Apps.ActorInSceneBuffIcon" preserve="all" />
     <type fullname="SYGames.Apps.ActorInSceneBuffView" preserve="all" />
     <type fullname="SYGames.Apps.AirplaneTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.AppConfig" preserve="all" />
+    <type fullname="SYGames.Apps.AppMain" preserve="all" />
     <type fullname="SYGames.Apps.AtlasUISprite" preserve="all" />
     <type fullname="SYGames.Apps.AudioEvent" preserve="all" />
     <type fullname="SYGames.Apps.AudioPlayer" preserve="all" />
@@ -46,6 +49,7 @@
     <type fullname="SYGames.Apps.ExtendRepo" preserve="all" />
     <type fullname="SYGames.Apps.FightingAlertStateMachine" preserve="all" />
     <type fullname="SYGames.Apps.GamepassTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.GuidesDataRepo" preserve="all" />
     <type fullname="SYGames.Apps.IndiractorDynamic" preserve="all" />
     <type fullname="SYGames.Apps.ItemEquipTableEx" preserve="all" />
     <type fullname="SYGames.Apps.ItemHeroTableEx" preserve="all" />
@@ -59,12 +63,16 @@
     <type fullname="SYGames.Apps.ParkingShopItemTableEx" preserve="all" />
     <type fullname="SYGames.Apps.ParticleEvent" preserve="all" />
     <type fullname="SYGames.Apps.PrefabRepo" preserve="all" />
+    <type fullname="SYGames.Apps.RD_Camera" preserve="all" />
     <type fullname="SYGames.Apps.RD_DamageNumber" preserve="all" />
+    <type fullname="SYGames.Apps.RD_Level" preserve="all" />
     <type fullname="SYGames.Apps.RD_ParticleMove" preserve="all" />
     <type fullname="SYGames.Apps.RedpointCom_FollowBtnInter" preserve="all" />
     <type fullname="SYGames.Apps.RedPointCom_IgnoreAdrEmail" preserve="all" />
     <type fullname="SYGames.Apps.RedPointComponent" preserve="all" />
+    <type fullname="SYGames.Apps.Ref" preserve="all" />
     <type fullname="SYGames.Apps.ResearchTableEx" preserve="all" />
+    <type fullname="SYGames.Apps.SafeArea" preserve="all" />
     <type fullname="SYGames.Apps.SimpleEase" preserve="all" />
     <type fullname="SYGames.Apps.SimpleUIFrameAnimPlayer" preserve="all" />
     <type fullname="SYGames.Apps.SimpleVFXReuse" preserve="all" />
@@ -274,6 +282,7 @@
     <type fullname="SYGames.Apps.UI_TopDropdown" preserve="all" />
     <type fullname="SYGames.Apps.UI_TopMenu" preserve="all" />
     <type fullname="SYGames.Apps.UIRepo" preserve="all" />
+    <type fullname="SYGames.Apps.UT_Platforms" preserve="all" />
     <type fullname="SYGames.Apps.UX_Button" preserve="all" />
     <type fullname="SYGames.Apps.WidgetsPropVFX" preserve="all" />
     <type fullname="SYGames.Apps.Winline" preserve="all" />
@@ -297,6 +306,28 @@
     <type fullname="SYGames.Apps.UIRepo/UIRefMap" preserve="nothing" serialized="true" />
     <type fullname="SYGames.Apps.TabItem/TabDeselectEvent" preserve="nothing" serialized="true" />
     <type fullname="SYGames.Apps.TabItem/TabSelectEvent" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_Default" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_Equip" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_GuideViewClick" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_LevelRestart" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_LinkMission" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_ViewState" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionData_ViewVisible" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideConditionGroup" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideEvents_Click" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideEvents_Drap" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideEvents_Tips" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideMissionData" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeActionGroup" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_ActiveBagScroll" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_BtnInteractable" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_Debug" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_Editable" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_SetBagPropPosition" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeAction_SpecialMissionState" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideNodeData" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.GuideTriggerActionType" preserve="nothing" serialized="true" />
+    <type fullname="SYGames.Apps.Guide_Target_View" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="SYGames.Defs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="SYGames.Defs.BattleSetting" preserve="all" />
@@ -312,15 +343,24 @@
     <type fullname="SYGames.Defs.MissionSetting/MissionNameConfig" preserve="nothing" serialized="true" />
     <type fullname="SYGames.Defs.ShopItemPurchasedInfo" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="SYGames.Nets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SYGames.Nets.NetConfig" preserve="all" />
+    <type fullname="SYGames.Nets.NetMain" preserve="all" />
+  </assembly>
   <assembly fullname="SYGames.Tops, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="SYGames.Apps.RecyclerView" preserve="all" />
+    <type fullname="SYGames.Tops.StringList" preserve="all" />
     <type fullname="SYGames.Tops.UI_Button" preserve="all" />
+    <type fullname="SYGames.Tops.UI_CanvasHelper" preserve="all" />
+    <type fullname="SYGames.Tops.UI_Container" preserve="all" />
     <type fullname="SYGames.Tops.UI_Image" preserve="all" />
     <type fullname="SYGames.Tops.UI_ProgressBar" preserve="all" />
     <type fullname="SYGames.Tops.UI_RectTransform" preserve="all" />
     <type fullname="SYGames.Tops.UI_ScrollRect" preserve="all" />
     <type fullname="SYGames.Tops.UI_Text" preserve="all" />
     <type fullname="SYGames.Tops.UI_ToggleGroup" preserve="all" />
+    <type fullname="SYGames.Tops.UIRef" preserve="all" />
+    <type fullname="SYGames.Tops.UT_Unity" preserve="all" />
     <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ActivityTableEx/Bean]" preserve="nothing" serialized="true" />
     <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.AirplaneTableEx/Bean]" preserve="nothing" serialized="true" />
     <type fullname="SerializableCollections.SeDictionary`2[System.Int32,SYGames.Apps.ClimbingEnemyTableEx/Bean]" preserve="nothing" serialized="true" />
@@ -357,6 +397,16 @@
     <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitializationData" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -399,15 +449,21 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
     <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
@@ -477,10 +533,6 @@
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.InputSystem">
-    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
